@@ -1,0 +1,89 @@
+commit 632dffdd99a34810d35e8df4cdf534fba6925960
+Author: Gladys MOtsinoni <mtsmoh010@myuct.ac.za>
+Date:   Sun Oct 1 20:18:18 2023 +0200
+
+    Added pixel processing loop and handled memory out of bounds error
+
+commit 8f948f49ee2137cf5c3affc440e44776b2f32a09
+Author: Gladys MOtsinoni <mtsmoh010@myuct.ac.za>
+Date:   Sun Oct 1 20:17:12 2023 +0200
+
+    Added the open and read input and open outputfile
+
+commit 5948f96e54e0b52afa8a18970146c23c2dd950fa
+Author: Gladys MOtsinoni <mtsmoh010@myuct.ac.za>
+Date:   Sun Oct 1 18:38:11 2023 +0200
+
+    Added the .data and the .text section of the code, with the relevant variables, file paths and buffers similar to increasebrightness.asm
+
+commit 246b8cae7d9985bcf9d94e1a132337963b727bac
+Author: Gladys MOtsinoni <mtsmoh010@myuct.ac.za>
+Date:   Sun Oct 1 18:16:23 2023 +0200
+
+    Created the greyscale.asm file
+
+commit 8ddbab5247279eaac1ade0120022407fb1400776
+Author: Gladys MOtsinoni <mtsmoh010@myuct.ac.za>
+Date:   Sun Oct 1 18:15:21 2023 +0200
+
+    Finalized and tested the code and removed unnecessary variables and instructions to optimize the code
+
+commit 8597ee11cb2e79f6644e06a40799faba5e525e83
+Author: Gladys MOtsinoni <mtsmoh010@myuct.ac.za>
+Date:   Sun Oct 1 16:28:15 2023 +0200
+
+    Updated the comments to the code for clarification
+
+commit c20fd0b982f6d9ea62beb723d1faf85820cb1649
+Author: Gladys MOtsinoni <mtsmoh010@myuct.ac.za>
+Date:   Sun Oct 1 16:08:17 2023 +0200
+
+    Added code to calculate and display the average pixel value of original and modified pixel average
+
+commit 8fd8a208bea9458602257e92950b1765faf49373
+Author: Gladys MOtsinoni <mtsmoh010@myuct.ac.za>
+Date:   Sun Oct 1 15:30:35 2023 +0200
+
+    Added the input buffer to convert from string to int and the output buffer that will be used to hold the modified pixel values
+
+commit 85ed14bb5aa13c469c4bba25911bd73fe2b82ba2
+Author: Gladys MOtsinoni <mtsmoh010@myuct.ac.za>
+Date:   Sun Oct 1 03:47:32 2023 +0200
+
+    Implemented the logic to process the pixels in order to calculate the sum and the count of the original pixel value
+
+commit 8b9c100aa7c86003f32d6e927592aba00efba23b
+Author: Gladys MOtsinoni <mtsmoh010@myuct.ac.za>
+Date:   Sun Oct 1 03:41:35 2023 +0200
+
+    Added pointer to the input and output buffer and the newline character
+
+commit 1d7d37bc7b00b15a402060da03c913444f1df840
+Author: Gladys MOtsinoni <mtsmoh010@myuct.ac.za>
+Date:   Sun Oct 1 00:04:36 2023 +0200
+
+    Added the code to read the data from the opened ppm file using service 14
+
+commit b64aaa23388acaa15fea59bddb8e07b0124de005
+Author: Gladys MOtsinoni <mtsmoh010@myuct.ac.za>
+Date:   Sun Oct 1 00:03:31 2023 +0200
+
+    Added the code to open the input ppm file using serive 13
+
+commit 9e13a7400f478c2c71b8ce5d5d64d965b1c00121
+Author: Gladys MOtsinoni <mtsmoh010@myuct.ac.za>
+Date:   Sat Sep 30 23:57:15 2023 +0200
+
+    Added the .text part which will have the main program, this is where the registers are intitialized, the input ppm file is opened and the data starts being processed
+
+commit cfa772cf34e30518f2c6e08ae37097bf1f5290bb
+Author: Gladys MOtsinoni <mtsmoh010@myuct.ac.za>
+Date:   Sat Sep 30 22:23:51 2023 +0200
+
+    Added the .data section of the code with the file paths to the ppm file, the created file and the buffers
+
+commit bd12164d196c7bf607ebeed248e966bf5d7e769c
+Author: Mohlago Motsinoni <mtsmoh010@sl-dual-278.cs.uct.ac.za>
+Date:   Thu Sep 21 11:19:24 2023 +0200
+
+    Made the increase_brightness.asm file first be able to open the input file
