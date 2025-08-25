@@ -4,6 +4,10 @@ Two MIPS assembly programs that process **PPM** images:
 - **increase_brightness.asm** — increases image brightness
 - **greyscale.asm** — converts a color image to **greyscale**
 
+![MIPS Image Processing Screenshot](https://github.com/Gladmots/image-processing-mips-assembly/blob/main/Image%20Processing%20MIPS%20Assembly/Screenshot%202025-08-24%20221209.png?raw=1)
+
+![MIPS Image Processing Screenshot](https://github.com/Gladmots/image-processing-mips-assembly/blob/main/Image%20Processing%20MIPS%20Assembly/Screenshot%202025-08-24%20221149.png?raw=1)
+
 ## **Repository Contents**
 - `increase_brightness.asm`
 - `greyscale.asm`
@@ -32,14 +36,6 @@ and prints **average RGB** for original vs modified.
 ### **greyscale.asm**
 Converts color to **greyscale**, writes `greyscale_output.txt`,
 and prints **average RGB** for the original.
-
-## **Screenshots**
-<p align="center">
-  <img src="docs/images/original_sample.png" alt="Original sample" width="340">
-  <img src="docs/images/brightened_sample.png" alt="Brightness increased" width="340">
-  <br>
-  <sub>Original vs. Brightness Increased</sub>
-</p>
 
 ## **Author**
 **Gladys Motsinoni**
